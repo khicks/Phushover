@@ -1,0 +1,25 @@
+{
+    "name": "rotorcowboy/phushover",
+    "description": "PHP wrapper for Pushover.net",
+    "version": "0.0.1",
+    "type": "library",
+    "homepage": "https://github.com/rotorcowboy/Phushover",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kevin Hicks",
+            "email": "kevin@khicks.net",
+            "homepage": "https://khicks.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phushover\\": "src/Phushover"
+        }
+    }
+}
