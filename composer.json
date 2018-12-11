@@ -1,9 +1,9 @@
 {
-    "name": "rotorcowboy/phushover",
+    "name": "khicks/phushover",
     "description": "PHP wrapper for Pushover.net",
     "version": "0.0.1",
     "type": "library",
-    "homepage": "https://github.com/rotorcowboy/Phushover",
+    "homepage": "https://github.com/khicks/Phushover",
     "license": "MIT",
     "authors": [
         {
