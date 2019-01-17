@@ -17,7 +17,7 @@ class Message {
     private $expire;
     private $callback;
 
-    public function __construct($message=null, $title=null, $priority=PRIORITY::NORMAL) {
+    public function __construct($message=null, $title=null, $priority=Priority::NORMAL) {
         $this->message = $message;
         $this->title = $title;
         $this->url = null;
